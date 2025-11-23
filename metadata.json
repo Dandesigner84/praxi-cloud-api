@@ -1,0 +1,7 @@
+{
+  "name": "PRAXI - WhatsApp Bot Manager",
+  "description": "A web-based interface to simulate, manage, and visualize the flows, controllers, and services for a WhatsApp-based AI assistant powered by Gemini.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

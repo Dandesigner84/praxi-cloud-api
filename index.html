@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRAXI - WhatsApp Bot Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'whatsapp-dark': '#111b21',
+              'whatsapp-teal': '#00a884',
+              'whatsapp-light': '#202c33',
+              'whatsapp-chat': '#005c4b',
+              'whatsapp-message': '#d9fdd3',
+              'whatsapp-text': '#e9edef',
+              'whatsapp-subtle': '#8696a0',
+              'praxi-blue': '#1e3a8a',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "axios": "https://aistudiocdn.com/axios@^1.13.2",
+    "fs": "https://aistudiocdn.com/fs@^0.0.1-security",
+    "venom-bot": "https://aistudiocdn.com/venom-bot@^5.3.0",
+    "fs-extra": "https://aistudiocdn.com/fs-extra@^11.3.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-whatsapp-dark">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
